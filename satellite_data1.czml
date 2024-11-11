@@ -1476,25 +1476,42 @@
                 -7001979.794340425
             ]
         },
-        "path": {
-            "show": true,
-            "width": 2,
-            "material": {
-                "solidColor": {
-                    "color": {
-                        "rgba": [
-                            255,
-                            0,
-                            0,
-                            255
-                        ]
-                    }
+"path": {
+        "show": true,
+        "width": 2,
+        "material": {
+            "solidColor": {
+                "color": {
+                    "rgba": [255, 0, 0, 255]
                 }
-            },
-            "leadTime": 0,
-            "trailTime": 86400,
-            "resolution": 120
-        }
+            }
+        },
+        "leadTime": 0,
+        "trailTime": 31536000,  // 1-year trail behind the satellite
+        "resolution": 120
+    },
+    "billboard": {
+        "image": "https://i.postimg.cc/MpsGM0NN/Simple-Satellite.png",  // Example image, replace with your own image URL
+        "scale": 0.025,  // Adjust the size of the satellite icon
+        "show": true
+    },
+    "label": {
+        "text": "MSAT M1",  // Satellite name
+        "font": "10pt Arial",
+        "fillColor": {
+            "rgba": [255, 255, 255, 255]  // White color for the text
+        },
+        "outlineColor": {
+            "rgba": [0, 0, 0, 255]  // Black outline for better readability
+        },
+        "outlineWidth": 2,
+        "style": "FILL_AND_OUTLINE",
+        "verticalOrigin": "BOTTOM",  // Place the label above the satellite
+        "pixelOffset": {
+            "cartesian2": [0, -25]  // Adjust the label position relative to the satellite icon
+        },
+        "show": true
+    }
     },
     {
         "id": "MSAT_M1_42",
@@ -2968,25 +2985,42 @@
                 -6844249.835772038
             ]
         },
-        "path": {
-            "show": true,
-            "width": 2,
-            "material": {
-                "solidColor": {
-                    "color": {
-                        "rgba": [
-                            255,
-                            0,
-                            0,
-                            255
-                        ]
-                    }
+"path": {
+        "show": true,
+        "width": 2,
+        "material": {
+            "solidColor": {
+                "color": {
+                    "rgba": [255, 0, 0, 255]
                 }
-            },
-            "leadTime": 0,
-            "trailTime": 86400,
-            "resolution": 120
-        }
+            }
+        },
+        "leadTime": 0,
+        "trailTime": 31536000,  // 1-year trail behind the satellite
+        "resolution": 120
+    },
+    "billboard": {
+        "image": "https://i.postimg.cc/MpsGM0NN/Simple-Satellite.png",  // Example image, replace with your own image URL
+        "scale": 0.025,  // Adjust the size of the satellite icon
+        "show": true
+    },
+    "label": {
+        "text": "MSAT M1",  // Satellite name
+        "font": "10pt Arial",
+        "fillColor": {
+            "rgba": [255, 255, 255, 255]  // White color for the text
+        },
+        "outlineColor": {
+            "rgba": [0, 0, 0, 255]  // Black outline for better readability
+        },
+        "outlineWidth": 2,
+        "style": "FILL_AND_OUTLINE",
+        "verticalOrigin": "BOTTOM",  // Place the label above the satellite
+        "pixelOffset": {
+            "cartesian2": [0, -25]  // Adjust the label position relative to the satellite icon
+        },
+        "show": true
+    }
     },
     {
         "id": "MSAT_M1_80",
@@ -4460,25 +4494,42 @@
                 -6818415.86787103
             ]
         },
-        "path": {
-            "show": true,
-            "width": 2,
-            "material": {
-                "solidColor": {
-                    "color": {
-                        "rgba": [
-                            255,
-                            0,
-                            0,
-                            255
-                        ]
-                    }
+"path": {
+        "show": true,
+        "width": 2,
+        "material": {
+            "solidColor": {
+                "color": {
+                    "rgba": [255, 0, 0, 255]
                 }
-            },
-            "leadTime": 0,
-            "trailTime": 86400,
-            "resolution": 120
-        }
+            }
+        },
+        "leadTime": 0,
+        "trailTime": 31536000,  // 1-year trail behind the satellite
+        "resolution": 120
+    },
+    "billboard": {
+        "image": "https://i.postimg.cc/MpsGM0NN/Simple-Satellite.png",  // Example image, replace with your own image URL
+        "scale": 0.025,  // Adjust the size of the satellite icon
+        "show": true
+    },
+    "label": {
+        "text": "MSAT M1",  // Satellite name
+        "font": "10pt Arial",
+        "fillColor": {
+            "rgba": [255, 255, 255, 255]  // White color for the text
+        },
+        "outlineColor": {
+            "rgba": [0, 0, 0, 255]  // Black outline for better readability
+        },
+        "outlineWidth": 2,
+        "style": "FILL_AND_OUTLINE",
+        "verticalOrigin": "BOTTOM",  // Place the label above the satellite
+        "pixelOffset": {
+            "cartesian2": [0, -25]  // Adjust the label position relative to the satellite icon
+        },
+        "show": true
+    }
     },
     {
         "id": "MSAT_M1_126",
@@ -5952,30 +6003,42 @@
                 -3934169.0789844873
             ]
         },
-        "path": {
-            "show": true,
-            "width": 2,
-            "material": {
-                "solidColor": {
-                    "color": {
-                        "rgba": [
-                            255,
-                            0,
-                            0,
-                            255
-                        ]
-                    }
+"path": {
+        "show": true,
+        "width": 2,
+        "material": {
+            "solidColor": {
+                "color": {
+                    "rgba": [255, 0, 0, 255]
                 }
-            },
-            "leadTime": 0,
-            "trailTime": 86400,
-            "resolution": 120
-        }
+            }
+        },
+        "leadTime": 0,
+        "trailTime": 31536000,  // 1-year trail behind the satellite
+        "resolution": 120
     },
-    {
-        "id": "document",
-        "name": "Satellite Propagation",
-        "version": "1.0"
+    "billboard": {
+        "image": "https://i.postimg.cc/MpsGM0NN/Simple-Satellite.png",  // Example image, replace with your own image URL
+        "scale": 0.025,  // Adjust the size of the satellite icon
+        "show": true
+    },
+    "label": {
+        "text": "MSAT M1",  // Satellite name
+        "font": "10pt Arial",
+        "fillColor": {
+            "rgba": [255, 255, 255, 255]  // White color for the text
+        },
+        "outlineColor": {
+            "rgba": [0, 0, 0, 255]  // Black outline for better readability
+        },
+        "outlineWidth": 2,
+        "style": "FILL_AND_OUTLINE",
+        "verticalOrigin": "BOTTOM",  // Place the label above the satellite
+        "pixelOffset": {
+            "cartesian2": [0, -25]  // Adjust the label position relative to the satellite icon
+        },
+        "show": true
+    }
     },
     {
         "id": "LEASAT_1_1",
@@ -7449,25 +7512,42 @@
                 -4197779.886963123
             ]
         },
-        "path": {
-            "show": true,
-            "width": 2,
-            "material": {
-                "solidColor": {
-                    "color": {
-                        "rgba": [
-                            255,
-                            0,
-                            0,
-                            255
-                        ]
-                    }
+"path": {
+        "show": true,
+        "width": 2,
+        "material": {
+            "solidColor": {
+                "color": {
+                    "rgba": [0, 255, 255, 255]
                 }
-            },
-            "leadTime": 0,
-            "trailTime": 86400,
-            "resolution": 120
-        }
+            }
+        },
+        "leadTime": 0,
+        "trailTime": 31536000,  // 1-year trail behind the satellite
+        "resolution": 120
+    },
+    "billboard": {
+        "image": "https://i.postimg.cc/MpsGM0NN/Simple-Satellite.png",  // Example image, replace with your own image URL
+        "scale": 0.025,  // Adjust the size of the satellite icon
+        "show": true
+    },
+    "label": {
+        "text": "LEASAT 1",  // Satellite name
+        "font": "10pt Arial",
+        "fillColor": {
+            "rgba": [255, 255, 255, 255]  // White color for the text
+        },
+        "outlineColor": {
+            "rgba": [0, 0, 0, 255]  // Black outline for better readability
+        },
+        "outlineWidth": 2,
+        "style": "FILL_AND_OUTLINE",
+        "verticalOrigin": "BOTTOM",  // Place the label above the satellite
+        "pixelOffset": {
+            "cartesian2": [0, -25]  // Adjust the label position relative to the satellite icon
+        },
+        "show": true
+    }
     },
     {
         "id": "LEASAT_1_31",
@@ -8941,25 +9021,42 @@
                 -4466210.164059274
             ]
         },
-        "path": {
-            "show": true,
-            "width": 2,
-            "material": {
-                "solidColor": {
-                    "color": {
-                        "rgba": [
-                            255,
-                            0,
-                            0,
-                            255
-                        ]
-                    }
+"path": {
+        "show": true,
+        "width": 2,
+        "material": {
+            "solidColor": {
+                "color": {
+                    "rgba": [0, 255, 255, 255]
                 }
-            },
-            "leadTime": 0,
-            "trailTime": 86400,
-            "resolution": 120
-        }
+            }
+        },
+        "leadTime": 0,
+        "trailTime": 31536000,  // 1-year trail behind the satellite
+        "resolution": 120
+    },
+    "billboard": {
+        "image": "https://i.postimg.cc/MpsGM0NN/Simple-Satellite.png",  // Example image, replace with your own image URL
+        "scale": 0.025,  // Adjust the size of the satellite icon
+        "show": true
+    },
+    "label": {
+        "text": "LEASAT 1",  // Satellite name
+        "font": "10pt Arial",
+        "fillColor": {
+            "rgba": [255, 255, 255, 255]  // White color for the text
+        },
+        "outlineColor": {
+            "rgba": [0, 0, 0, 255]  // Black outline for better readability
+        },
+        "outlineWidth": 2,
+        "style": "FILL_AND_OUTLINE",
+        "verticalOrigin": "BOTTOM",  // Place the label above the satellite
+        "pixelOffset": {
+            "cartesian2": [0, -25]  // Adjust the label position relative to the satellite icon
+        },
+        "show": true
+    }
     },
     {
         "id": "LEASAT_1_66",
@@ -10433,25 +10530,42 @@
                 -4563331.837657646
             ]
         },
-        "path": {
-            "show": true,
-            "width": 2,
-            "material": {
-                "solidColor": {
-                    "color": {
-                        "rgba": [
-                            255,
-                            0,
-                            0,
-                            255
-                        ]
-                    }
+"path": {
+        "show": true,
+        "width": 2,
+        "material": {
+            "solidColor": {
+                "color": {
+                    "rgba": [0, 255, 255, 255]
                 }
-            },
-            "leadTime": 0,
-            "trailTime": 86400,
-            "resolution": 120
-        }
+            }
+        },
+        "leadTime": 0,
+        "trailTime": 31536000,  // 1-year trail behind the satellite
+        "resolution": 120
+    },
+    "billboard": {
+        "image": "https://i.postimg.cc/MpsGM0NN/Simple-Satellite.png",  // Example image, replace with your own image URL
+        "scale": 0.025,  // Adjust the size of the satellite icon
+        "show": true
+    },
+    "label": {
+        "text": "LEASAT 1",  // Satellite name
+        "font": "10pt Arial",
+        "fillColor": {
+            "rgba": [255, 255, 255, 255]  // White color for the text
+        },
+        "outlineColor": {
+            "rgba": [0, 0, 0, 255]  // Black outline for better readability
+        },
+        "outlineWidth": 2,
+        "style": "FILL_AND_OUTLINE",
+        "verticalOrigin": "BOTTOM",  // Place the label above the satellite
+        "pixelOffset": {
+            "cartesian2": [0, -25]  // Adjust the label position relative to the satellite icon
+        },
+        "show": true
+    }
     },
     {
         "id": "LEASAT_1_115",
@@ -11925,24 +12039,41 @@
                 -9297989.087968586
             ]
         },
-        "path": {
-            "show": true,
-            "width": 2,
-            "material": {
-                "solidColor": {
-                    "color": {
-                        "rgba": [
-                            255,
-                            0,
-                            0,
-                            255
-                        ]
-                    }
+"path": {
+        "show": true,
+        "width": 2,
+        "material": {
+            "solidColor": {
+                "color": {
+                    "rgba": [0, 255, 255, 255]
                 }
-            },
-            "leadTime": 0,
-            "trailTime": 86400,
-            "resolution": 120
-        }
+            }
+        },
+        "leadTime": 0,
+        "trailTime": 31536000,  // 1-year trail behind the satellite
+        "resolution": 120
+    },
+    "billboard": {
+        "image": "https://i.postimg.cc/MpsGM0NN/Simple-Satellite.png",  // Example image, replace with your own image URL
+        "scale": 0.025,  // Adjust the size of the satellite icon
+        "show": true
+    },
+    "label": {
+        "text": "LEASAT 1",  // Satellite name
+        "font": "10pt Arial",
+        "fillColor": {
+            "rgba": [255, 255, 255, 255]  // White color for the text
+        },
+        "outlineColor": {
+            "rgba": [0, 0, 0, 255]  // Black outline for better readability
+        },
+        "outlineWidth": 2,
+        "style": "FILL_AND_OUTLINE",
+        "verticalOrigin": "BOTTOM",  // Place the label above the satellite
+        "pixelOffset": {
+            "cartesian2": [0, -25]  // Adjust the label position relative to the satellite icon
+        },
+        "show": true
     }
-]
+    }
+  ]
