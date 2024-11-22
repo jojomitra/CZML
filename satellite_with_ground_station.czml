@@ -23,7 +23,7 @@
         },
         "billboard": {
             "image": "https://i.postimg.cc/8kqBPpzg/Observatory.png",
-            "scale": 0.05,
+            "scale": 0.5,
             "show": true
         },
         "label": {
